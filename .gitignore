@@ -1,0 +1,44 @@
+# Mojo-specific ignores
+*.mojom
+*.mojo.o
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*~
+
+# Test and coverage reports
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Mojo and Magic specific
+.magic/
+.modular/ 

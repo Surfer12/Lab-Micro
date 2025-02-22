@@ -1,0 +1,20 @@
+[project]
+name = "digital-logic-design"
+version = "0.1.0"
+description = "Digital Logic Design Project using Mojo"
+authors = ["Ryan <ryan@example.com>"]
+readme = "README.md"
+requires-python = ">=3.8"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel", "mojo"]
+build-backend = "setuptools.build_meta"
+
+[tool.magic]
+project-type = "mojo"
+
+[dependencies]
+mojo = "^0.1.0"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"] 
