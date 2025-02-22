@@ -1,7 +1,0 @@
-Version: v1.0
-Timestamp: 2025-02-04T10:12:00Z
-Summary: 
-- Identified and explained the Git rebase conflict.
-- Provided steps for conflict resolution, skipping, and aborting the rebase.
-- Highlighted the importance of understanding Git rebase and conflict resolution.
----------------------------------------- 
